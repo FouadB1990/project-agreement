@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Sequences for project.agreements -->
+        <record id="seq_project_agreements" model="ir.sequence">
+            <field name="name">Project Agreements</field>
+            <field name="code">project.agreements</field>
+            <field name="prefix">AG-0000</field>
+            <field name="padding">4</field>
+            <field name="number_next">1</field>
+            <field name="number_increment">1</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+    </data>
+</odoo>
