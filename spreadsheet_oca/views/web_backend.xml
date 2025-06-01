@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 CreuBlanca
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <template id="assets_backend" name="spreadsheet_oca assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/spreadsheet_oca/static/src/js/spreadsheet_action.js"/>
+        </xpath>
+    </template>
+
+
+</odoo>
